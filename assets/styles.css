@@ -1,23 +1,23 @@
-body{
-    font-family: Avenir-Next,Roboto,sans-serif;
+body {
+  font-family: Avenir-Next, Roboto, sans-serif;
 }
-body >p{
-    font-size: 16px;
+body > p {
+  font-size: 16px;
 }
 /* Navbar */
 .navList {
   margin: 0;
-	padding: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   list-style-type: none;
 }
-.navImg{
+.navImg {
   width: 120px;
   height: 50px;
   margin: auto;
 }
-.navList li{
+.navList li {
   display: inline;
 }
 .navList li a {
@@ -25,10 +25,10 @@ body >p{
   font-size: 16px;
   text-decoration: none;
 }
-.liImg{
+.liImg {
   height: 20px;
 }
-.nav_button{
+.nav_button {
   color: white;
   background-color: orange;
   border: none;
@@ -37,19 +37,19 @@ body >p{
   padding: 10px;
   margin: auto;
 }
-.nav_button:hover{
+.nav_button:hover {
   opacity: 0.7;
 }
 
 /* Home Page */
-.welcomePage{
+.welcomePage {
   position: relative;
   margin: 0 auto;
 }
 .welcomePage img {
   max-width: 100%;
 }
-.homePage{
+.homePage {
   text-align: left;
   padding-left: 10%;
   padding-right: 10%;
@@ -59,7 +59,6 @@ body >p{
   background-color: #000000b3;
   color: #f1f1f1;
   max-width: 100%;
-  
 }
 .main_heading {
   font-size: 90px;
@@ -67,11 +66,11 @@ body >p{
 .homePage .code-line {
   font-size: 33px;
 }
-.button{
+.button {
   color: white;
   border: none;
   width: 200px;
-  background-color:  #4992ca;
+  background-color: #4992ca;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
@@ -79,10 +78,10 @@ body >p{
   transition: 0.3s;
   cursor: pointer;
 }
-.button2{
+.button2 {
   color: white;
   border: 2px solid white;
-  background-color:  transparent;
+  background-color: transparent;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
@@ -90,10 +89,9 @@ body >p{
   transition: 0.3s;
   cursor: pointer;
 }
-.button3{
-  color:;
+.button3 {
   border: none;
-  background-color:  white;
+  background-color: white;
   border-radius: 15px;
   padding: 16px 32px;
   text-align: center;
@@ -102,10 +100,11 @@ body >p{
   transition: 0.3s;
   cursor: pointer;
 }
-.button:hover, .button2:hover, .button3:hover {
-  opacity: 0.7
+.button:hover,
+.button2:hover,
+.button3:hover {
+  opacity: 0.7;
 }
-
 
 /* Pocket Monsters Section */
 .pocketmonsection {
@@ -167,7 +166,7 @@ body >p{
 .pokemon {
   display: flex;
 }
-.pokemon .aa{
+.pokemon .aa {
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -175,7 +174,7 @@ body >p{
 .pokemonOfTheYear h4 {
   font-size: 30px;
 }
-.pokemonOfTheYear h6{
+.pokemonOfTheYear h6 {
   font-size: 18px;
 }
 
@@ -191,7 +190,7 @@ body >p{
   text-align: center;
   font-size: 45px;
 }
-.QandAsection h6{
+.QandAsection h6 {
   font-size: 18px;
 }
 
@@ -207,13 +206,13 @@ body >p{
   justify-content: space-between;
   text-align: left;
 }
-.pokemonBattleTable > div{
-    margin: 5px;
+.pokemonBattleTable > div {
+  margin: 5px;
 }
-.battleFlex1{
+.battleFlex1 {
   flex: 1;
 }
-.battleFlex2{
+.battleFlex2 {
   flex: 2;
 }
 #pokemonTable {
@@ -221,7 +220,8 @@ body >p{
   color: #8a8a8a;
   width: 100%;
 }
-td,th {
+td,
+th {
   border: 1px solid #8a8a8a;
   padding: 5px;
 }
@@ -232,12 +232,7 @@ td,th {
   padding: 10px;
   background: #4992ca;
   border: none;
-  padding: 15px
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  transition: 0.3s;
+  padding: 15px;
 }
 .tableButton:hover {
   opacity: 0.7;
@@ -277,27 +272,25 @@ td,th {
   padding: 15px;
   padding-left: 10%;
   padding-right: 10%;
- 
 }
 .card {
   background-color: white;
-	width: 20%;
-	padding: 0;
-	padding-bottom: 20px;
-	border: 1px solid #F0F0F0;
+  width: 20%;
+  padding: 0;
+  padding-bottom: 20px;
+  border: 1px solid #f0f0f0;
 }
 .pokemonCard h3 {
   font-size: 45px;
 }
-.pokemonCard h6{
+.pokemonCard h6 {
   font-size: 18px;
   color: black;
 }
-.cardHead{
+.cardHead {
   background-color: #f1f0f0;
   border-top: 18px solid #4992ca;
 }
-
 
 /* Pokemon Trainers Section */
 .pokemonTrainerSection {
@@ -309,10 +302,10 @@ td,th {
   padding-left: 10%;
   padding-right: 10%;
 }
-.pokemonTrainerSection h4{
+.pokemonTrainerSection h4 {
   font-size: 30px;
 }
-.pokemonTrainerSection h6{
+.pokemonTrainerSection h6 {
   font-size: 18px;
 }
 .pokemonTrainerFlex {
@@ -341,7 +334,7 @@ td,th {
   padding-right: 10%;
   color: #8a8a8a;
 }
-.cardsSection h3{
+.cardsSection h3 {
   font-size: 45px;
 }
 .cards_contaner {
@@ -349,7 +342,7 @@ td,th {
   flex-wrap: wrap;
   justify-content: center;
 }
-.cardPart{
+.cardPart {
   width: 400px;
   border: 1px solid rgba(0, 0, 0, 0.125);
   margin: 8px;
@@ -357,14 +350,14 @@ td,th {
   text-align: left;
   color: black;
 }
-.cardHeader{
+.cardHeader {
   margin-bottom: 0;
   padding-left: 10px;
   border-bottom: 1px rgba(0, 0, 0, 0.125) solid;
   border-top: 16px #4992ca solid;
   background-color: rgba(0, 0, 0, 0.03);
 }
-.cardBody{
+.cardBody {
   padding: 10px;
 }
 
@@ -395,31 +388,30 @@ td,th {
 }
 
 /* Games Section */
-.pokemonGames{
+.pokemonGames {
   text-align: center;
   padding: 25px;
   padding-left: 10%;
   padding-right: 10%;
-  
 }
-.pokemonGameFlex{
+.pokemonGameFlex {
   display: flex;
   justify-content: space-around;
 }
-.pokemonGames img{
+.pokemonGames img {
   width: 200px;
   height: 200px;
 }
-.pokemonGames h3{
+.pokemonGames h3 {
   font-size: 30px;
   color: #8a8a8a;
 }
-.pokemonGames h6{
+.pokemonGames h6 {
   font-size: 18px;
 }
 
 /* Designers */
-.designers{
+.designers {
   text-align: center;
   background-color: #4992ca;
   color: white;
@@ -427,36 +419,35 @@ td,th {
   padding-left: 10%;
   padding-right: 10%;
 }
-.designerFlex{
+.designerFlex {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.designers h3{
+.designers h3 {
   font-size: 30px;
 }
-.designers h6{
+.designers h6 {
   font-size: 18px;
 }
-.designersFace{
+.designersFace {
   width: 150px;
   height: 150px;
   border-radius: 50%;
 }
 
 /* Logos */
-.logos{
+.logos {
   text-align: center;
 }
-.logoFlex{
+.logoFlex {
   display: flex;
   flex-direction: row;
   gap: 20px;
   justify-content: space-around;
   padding: 15px;
-  
 }
-.logos h3{
+.logos h3 {
   font-size: 30px;
   color: #8a8a8a;
 }
@@ -483,7 +474,7 @@ td,th {
 }
 
 /* Footer */
-.footer{
+.footer {
   text-align: center;
   background-color: #424242;
   padding: 25px;
@@ -491,19 +482,19 @@ td,th {
   padding-right: 10%;
   color: white;
 }
-ul{
+ul {
   list-style: none;
 }
-li{
+li {
   color: white;
 }
-.footerFlex{
+.footerFlex {
   display: flex;
   justify-content: space-around;
 }
-.footer p{
+.footer p {
   color: #8a8a8a;
 }
-.footerFlex .fa{
+.footerFlex .fa {
   color: white;
 }
